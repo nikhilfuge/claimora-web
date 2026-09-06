@@ -1,1 +1,27 @@
-PLACEHOLDER
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Claimora logo</title>
+  <desc id="desc">A blue and cyan curved C mark on a dark navy rounded square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102b5d"/>
+      <stop offset="0.55" stop-color="#081936"/>
+      <stop offset="1" stop-color="#061326"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0.12" y1="0.82" x2="0.86" y2="0.2">
+      <stop offset="0" stop-color="#0639e8"/>
+      <stop offset="0.46" stop-color="#087ff5"/>
+      <stop offset="1" stop-color="#18e0df"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.45 0 0 0 0 1 0 0 0 .5 0"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000b20" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect x="28" y="28" width="968" height="968" rx="235" fill="url(#bg)" filter="url(#shadow)"/>
+  <path d="M751 299 C687 234 593 198 491 198 C285 198 119 365 119 571 C119 777 285 944 491 944 C591 944 683 909 748 846 C789 806 789 742 749 703 C709 664 646 665 606 704 C575 734 535 750 491 750 C393 750 314 670 314 571 C314 472 393 392 491 392 C535 392 576 408 607 439 C646 478 710 479 750 440 C790 400 790 338 751 299 Z" fill="#001b57" opacity="0.62" filter="url(#glow)"/>
+  <path d="M751 299 C687 234 593 198 491 198 C285 198 119 365 119 571 C119 777 285 944 491 944 C591 944 683 909 748 846 C789 806 789 742 749 703 C709 664 646 665 606 704 C575 734 535 750 491 750 C393 750 314 670 314 571 C314 472 393 392 491 392 C535 392 576 408 607 439 C646 478 710 479 750 440 C790 400 790 338 751 299 Z" fill="url(#mark)"/>
+  <path d="M755 304 C691 239 596 205 494 205 C291 205 127 369 127 572" fill="none" stroke="#55cfff" stroke-width="8" stroke-linecap="round" opacity="0.28"/>
+</svg>
