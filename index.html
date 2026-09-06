@@ -3,21 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Claimora — keep your purchases, invoices and warranty details together in one private vault.">
-  <title>Claimora</title>
+  <meta name="description" content="Claimora — receipts, warranties and reminders, kept together in one private vault.">
+  <title>Claimora — Receipts, Warranties &amp; Reminders</title>
+  <link rel="icon" href="assets/claimora-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <main class="shell hero">
-    <div class="brand"><span class="brand-mark">C</span><span>Claimora</span></div>
-    <p class="eyebrow">WARRANTY ORGANISER</p>
-    <h1>Never lose money because you forgot a warranty.</h1>
-    <p class="lead">Keep your purchases, invoices and warranty details together in one private vault.</p>
-    <div class="actions">
-      <a class="button" href="privacy/">Privacy Policy</a>
-      <a class="button secondary" href="support/">Support</a>
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="brand" href="./" aria-label="Claimora home">
+        <img class="brand-logo" src="assets/claimora-logo.svg" alt="Claimora logo">
+        <span>Claimora</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="./">Home</a>
+        <a href="privacy/">Privacy Policy</a>
+        <a href="support/">Support</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">RECEIPTS, WARRANTIES &amp; REMINDERS</p>
+          <h1>Claimora</h1>
+          <h2>Receipts, Warranties &amp; Reminders</h2>
+          <p class="lead">Keep track of what you own.<br>So you never miss what you’re entitled to.</p>
+          <div class="actions">
+            <span class="button app-store"><span class="apple-mark" aria-hidden="true">●</span> Download on the App Store</span>
+            <a class="button secondary" href="#features">Learn More <span aria-hidden="true">⌄</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Claimora app icon and tagline">
+          <img src="assets/claimora-logo.svg" alt="Claimora app icon">
+          <p>Buy.<br>Keep.<br><em>Be Covered.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="shell feature-grid">
+        <article class="feature-card receipt">
+          <div class="feature-icon" aria-hidden="true">▤</div>
+          <h3>Save Your Receipts</h3>
+          <p>Scan and store invoices, manuals and product information.</p>
+        </article>
+        <article class="feature-card warranty">
+          <div class="feature-icon" aria-hidden="true">♡</div>
+          <h3>Track Warranties</h3>
+          <p>Know what’s covered and when it expires.</p>
+        </article>
+        <article class="feature-card reminders">
+          <div class="feature-icon" aria-hidden="true">♧</div>
+          <h3>Set Reminders</h3>
+          <p>Get notified before your warranty expires.</p>
+        </article>
+        <article class="feature-card privacy">
+          <div class="feature-icon" aria-hidden="true">⌑</div>
+          <h3>Private by Design</h3>
+          <p>Your data stays on your device. No account required.</p>
+        </article>
+      </div>
+    </section>
   </main>
-  <footer class="shell footer">© 2026 Claimora · Built by Neel Studios</footer>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <img src="assets/claimora-logo.svg" alt="Claimora logo">
+        <div>
+          <strong>Claimora</strong>
+          <span>Receipts, Warranties &amp; Reminders</span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div><a href="privacy/">Privacy Policy</a><span>|</span><a href="support/">Support</a></div>
+        <p>© 2026 Neel Studios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
